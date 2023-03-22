@@ -25,9 +25,13 @@ button{
     border: none;
     font-weight: bold;
     margin-top: 0.5%;
-    /*width: 10%;*/
-    text-align: center;
 }
+
+ #clear-btn{
+
+    background-color: red;
+}
+   
 
 #ul-el{
     margin-top: 1%;
@@ -42,3 +46,13 @@ button{
     color: #5f9341;
 }
 
+li button{
+    font-size: 20%;
+    padding: 1px 2px;
+    background-color: red;
+    color: aliceblue;
+    border: none;
+    font-weight: bold;
+    margin-top: 0.5%; 
+    margin-left: 1.5%;
+}
