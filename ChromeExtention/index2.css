@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
+    min-width: 400px;
 }
 
 input{
@@ -12,21 +13,32 @@ input{
     border-color: #5f9341;
     font-size: 200%;
     border-width: 1.5px;
-    width: 45%;
-    /* box-sizing: border-box allows to make the element recongnize the padding made by the elemnt about it (body) */  
+    width: 100%;
+     box-sizing: border-box; 
 }
 
 button{
-    font-size: 150%;
+    font-size: 130%;
     padding: 8px 20px;
     background-color: #5f9341;
     color: aliceblue;
     border: none;
     font-weight: bold;
     margin-top: 0.5%;
-    width: 10%;
+    /*width: 10%;*/
     text-align: center;
-
 }
 
+#ul-el{
+    margin-top: 1%;
+    list-style: none;
+    padding-left: 0;
+}
+#li-el{
+    margin-top: 0.5%;
+}
+
+#a-el{
+    color: #5f9341;
+}
 
