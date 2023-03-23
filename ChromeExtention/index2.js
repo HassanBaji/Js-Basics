@@ -6,9 +6,11 @@ const inputEl = document.getElementById("input-el")
 const saveBtn = document.getElementById("input-btn")
 const ulEl  = document.getElementById("ul-el")
 const clearBtn = document.getElementById("clear-btn")
+const saveTabBtn = document.getElementById("save-input-btn")
 
-checkLeads()
-renderLeads()
+
+//checkLeads()
+//renderLeads()
 
 saveBtn.addEventListener("click", function(){
 myLeads.push(inputEl.value)
@@ -51,3 +53,13 @@ function removeItem(index){
     myLeads.splice(index, 1)
     renderLeads()
 }
+
+// saveTabBtn.addEventListener("click", function(){
+//     chrome.tabs.query({active: true, lastFocusedWindow: true}, tabs => {
+//         let url = tabs[0].url;
+//         // use `url` here inside the callback because it's asynchronous!
+//         myLeads.push(url)
+//         renderLeads()
+//     })
+// });
+
